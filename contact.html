@@ -29,7 +29,7 @@
             <div class="p-2 flex-fill bd-highlight border border-dark" onclick="location.href='contact.html';">
                 <p class="text-center pt-2 mb-1">Contact</p>
             </div>
-            <div class="p-2 flex-fill bd-highlight border border-dark">
+            <div class="p-2 flex-fill bd-highlight border border-dark" onclick="location.href='compte.html';">
                 <p class="text-center pt-2 mb-1">Mon compte</p>
             </div>
         </div>
@@ -37,16 +37,34 @@
         <div class="espace pt-4">
             <h1>Gérer mes contacts</h1>
         </div>
-        <div class="ml-5">
-            <h2>Ajouter</h2>
-            <form action="" method="post">
-                <label class="mr-1">Prénom : </label>
-                <input type="text" name="prenom"><br>
-                <label class="mr-4">Nom : </label>
-                <input type="text" name="prenom"><br>
-                <input type="submit" value="Valider" name="valider">
-            </form>
+
+        <div class="d-flex justify-content-between ajout">
+
+            <div class="ml-5">
+                <h2>Ajouter</h2>
+                <form action="" method="post">
+                    <label class="mr-1">Prénom : </label>
+                    <input type="text" name="prenom"><br>
+                    <label class="mr-4">Nom : </label>
+                    <input type="text" name="prenom"><br>
+                    <input type="submit" value="Valider" name="valider">
+                </form>
+            </div>
+
+            <div class="ml-5">
+                <h2>OU</h2>
+            </div>
+
+            <div class="ml-5">
+                <h2>Ajouter</h2>
+                <form action="" method="post">
+                    <label class="mr-1">Pseudo : </label>
+                    <input type="text" name="pseudo"><br>
+                    <input type="submit" value="Valider" name="valider">
+                </form>
+            </div>
         </div>
+
 
         <div class="Samis mx-auto">
             <h2>Liste des contactes</h2>
@@ -56,7 +74,6 @@
             <div class="amis">
                 <p><span>Meliodas</span><span>Le Nullos</span></p>
             </div>
-
         </div>
 
 
