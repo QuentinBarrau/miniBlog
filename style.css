@@ -1,4 +1,4 @@
-.logo{
+.logo {
     background-image: url(img/logo.png);
     background-repeat: no-repeat;
     height: 100px;
@@ -6,33 +6,35 @@
     background-size: 100px;
 }
 
-.espace{
+.espace {
     height: 150px
 }
 
-.annonce{
+.annonce {
     border: solid black;
     width: 80%;
     margin-bottom: 50px;
 }
 
-.qui{
+.qui {
     font-size: 200%
 }
 
-.texte{
+.texte {
     font-size: 120%
 }
 
-.commeT{
-    
-}
+.commeT {}
 
-.commNom{
-    
-}
+.commNom {}
 
-.comm{
+.comm {
     border: solid black;
-    border-width: thin ;
+    border-width: thin;
+}
+
+.creerComm {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
 }
