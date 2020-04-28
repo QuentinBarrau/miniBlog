@@ -21,18 +21,24 @@
     </header>
 
     <main>
-        <form action="" method="post">
-            <h2>Se connecter</h2>
-            <p>
-                <label>Adresse mail : </label>
-                <input type="text" name="mail">
-            </p>
-            <p>
-                <label>Mot de passe : </label>
-                <input type="text" name="mdp">
-            </p>
 
-            <input type="submit" value="Se connecter" name="connecter">
+        <form action="actualite.html" method="GET" class="connect mx-auto mt-5">
+            <div>
+                <h2 class="mt-2 mb-4">Se connecter</h2>
+                <p>
+                    <label>Adresse mail : </label>
+                    <input type="text" name="mail">
+                </p>
+                <p>
+                    <label>Mot de passe : </label>
+                    <input type="text" name="mdp">
+                </p>
+                <div class="d-flex justify-content-end mr-5">
+                    <a href="inscription.html" class="mr-5">Créer un compte </a><br>
+                </div>
+                <input type="submit" value="Se connecter" name="connecter">
+            </div>
+
         </form>
     </main>
 
