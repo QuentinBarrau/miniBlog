@@ -5,3 +5,34 @@
     width: 100px;
     background-size: 100px;
 }
+
+.espace{
+    height: 150px
+}
+
+.annonce{
+    border: solid black;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.qui{
+    font-size: 200%
+}
+
+.texte{
+    font-size: 120%
+}
+
+.commeT{
+    
+}
+
+.commNom{
+    
+}
+
+.comm{
+    border: solid black;
+    border-width: thin ;
+}
