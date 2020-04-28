@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <title>Poster un commentaire</title>
+    <title>Contacts</title>
     <style></style>
 </head>
 
@@ -16,7 +16,8 @@
         <div class="h2">
             <p class="pt-4 ">MiniBlog</p>
         </div>
-        <div class="" onclick="location.href='index.html';"><p class="border border-dark text-muted p-2">Se déconnecter</p>
+        <div class="" onclick="location.href='index.html';">
+            <p class="border border-dark text-muted p-2">Se déconnecter</p>
         </div>
     </header>
 
@@ -34,24 +35,30 @@
         </div>
 
         <div class="espace pt-4">
-            <h1>Poster un commentaire</h1>
+            <h1>Gérer mes contacts</h1>
         </div>
-
-        <div class="annonce mx-auto p-2">
-            <p class="qui"><u>Prénom nom</u></p>
-            <p class="texte">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis nunc non dui placerat congue. In fermentum nunc eu lacus sollicitudin mattis. Vivamus in elementum urna. Donec scelerisque lectus sit amet velit congue blandit. Nulla semper cursus nunc, a faucibus felis dapibus sit amet. Vestibulum ac sem id nibh pretium convallis. Donec tristique congue libero, in tincidunt massa posuere a. Cras vestibulum sit amet lorem eu facilisis.</p>
-            <p class="commT"><b>Votre commentaire :</b></p>
-
+        <div class="ml-5">
+            <h2>Ajouter</h2>
             <form action="" method="post">
-                <textarea class="creerComm" type="text" name="message"></textarea><br>
-                <input type="submit" value="Publier" name="publier">
+                <label class="mr-1">Prénom : </label>
+                <input type="text" name="prenom"><br>
+                <label class="mr-4">Nom : </label>
+                <input type="text" name="prenom"><br>
+                <input type="submit" value="Valider" name="valider">
             </form>
+        </div>
 
-
-
-
+        <div class="Samis mx-auto">
+            <h2>Liste des contactes</h2>
+            <div class="amis">
+                <p><span>DIDIER</span><span>MATTIS</span></p>
+            </div>
+            <div class="amis">
+                <p><span>Meliodas</span><span>Le Nullos</span></p>
+            </div>
 
         </div>
+
 
 
     </main>

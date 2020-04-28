@@ -7,7 +7,7 @@
 }
 
 .espace {
-    height: 150px
+    height: 110px
 }
 
 .annonce {
@@ -37,4 +37,21 @@
     height: 100px;
     width: 100%;
     margin-bottom: 20px;
+}
+
+.amis{
+    border: solid black;
+    width: 40%;
+   margin-top: 20px;
+    margin-left: 20px;
+}
+
+.amis p span{
+    font-size: 120%;
+    margin: 20px;
+}
+
+.Samis{
+    margin-top: 20px;
+    width: 60%;
 }
